@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Youtube Clone</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons\hamburger-menu.svg">
+        <img class="youtube-logo" src="icons\youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img class="search-icon" src="icons\search.svg">
+          <div class="tooltip">Search</div>
+          <!-- Put position absolute inside position relative -->
+        </button>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons\voice-search-icon.svg">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img class="upload-icon" src="icons\upload.svg">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img class="notifications-icon" src="icons\notifications.svg">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img class="user-picture" src="channel icon\main channel icon.jpg">
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="sidebar-icons\home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons\explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons\subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons\originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="sidebar-icons\library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="video-grid">
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=-oCx7JYjo5k">
+              <img class="thumbnail" src="thumbnails\hq720.webp">
+            </a>
+            <div class="video-time">6.50</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@bluepandoli6856">
+                <img class="profile-picture" src="channel icon\unnamed.jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a class="a1" href="https://www.youtube.com/watch?v=-oCx7JYjo5k">
+                <p class="video-tittle">
+                  Summer Pockets Orchestra Album "Echoes of Summer" - ポケットをふくらませて -Instrument-
+                </p>
+              </a>
+              <a class="a2" href="https://www.youtube.com/@bluepandoli6856">
+                <p class="video-author">
+                  Blue Pando<strong>li</strong>
+                </p>
+              </a>
+              <p class="video-stats"> 
+                40K views &#183; 3 years ago 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=YHnTS3HMqPI">
+              <img class="thumbnail" src="thumbnails\hq720 (3).jpg">
+            </a>
+            <div class="video-time">5.35</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@sohmalyrics">
+                <img class="profile-picture" src="channel icon\unnamed (3).jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a class="a1" href="https://www.youtube.com/watch?v=YHnTS3HMqPI">
+                <p class="video-tittle">
+                  【Niji to Kite】Fruits Basket: Prelude (Sub Español&Romaji+AMV)
+                </p>
+              </a>
+              <a class="a2" href="https://www.youtube.com/@sohmalyrics">
+                <p class="video-author">
+                  Sohma lyrics
+                </p>
+              </a>
+              <p class="video-stats"> 
+                12k views &#183; 5 May 2022
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=GeuUUnjlemw">
+              <img class="thumbnail" src="thumbnails\hq720 (4).jpg">
+            </a>
+            <div class="video-time">4.10</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@UzumakiNaelricyZ">
+                <img class="profile-picture" src="channel icon\unnamed (4).jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a class="a1" href="https://www.youtube.com/watch?v=GeuUUnjlemw">
+                <p class="video-tittle">
+                  When Marnie Was There - Ending (Legenda em PT-BR + Original)
+                </p>
+              </a>
+              <a class="a2" href="https://www.youtube.com/@UzumakiNaelricyZ">
+                <p class="video-author">
+                  UzumakiNaelricyZ
+                </p>
+              </a>
+              <p class="video-stats"> 
+                90k views &#183; 6 years ago 
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=1a9Noh4zMqQ">
+              <img class="thumbnail" src="thumbnails\hq720 (5).webp">
+            </a>
+            <div class="video-time">5.07</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@viridianamarquez380">
+                <img class="profile-picture" src="channel icon\unnamed (5).jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a class="a1" href="https://www.youtube.com/watch?v=1a9Noh4zMqQ">
+                <p class="video-tittle">
+                  kamisama no inai nichiyoubi
+                </p>
+              </a>
+              <a class="a2" href="https://www.youtube.com/@viridianamarquez380" >
+                <p class="video-author">
+                  viridiana marquez
+                </p>
+              </a>
+              <p class="video-stats"> 
+                27K views &#183; 7 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=BFN59DVbOh4">
+              <img class="thumbnail" src="thumbnails\hq720 (6).webp">
+            </a>
+            <div class="video-time">3.43</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@caz2401">
+                <img class="profile-picture" src="channel icon\unnamed (6).jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a class="a1" href="https://www.youtube.com/watch?v=BFN59DVbOh4">
+                <p class="video-tittle">
+                  Yuru Camp (Laid-Back Camp) Haru no Tonari / はるのとなり(English Lyrics)
+                </p>
+              </a>
+              <a class="a2" href="https://www.youtube.com/@caz2401">
+                <p class="video-author">
+                  Carolann North
+                </p>
+              </a>
+              <p class="video-stats"> 
+                2.5K views &#183; 1 year ago 
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=co4n4Etlejw">
+              <img class="thumbnail" src="thumbnails\hq720 (7).webp">
+            </a>
+            <div class="video-time">4.33</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@animeost7790">
+                <img class="profile-picture" src="channel icon\unnamed (7).jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a class="a1" href="https://www.youtube.com/watch?v=co4n4Etlejw">
+                <p class="video-tittle">
+                  Boku dake ga inai machi ending lyrics dan terjemahan [Bahasa Indonesia]
+                </p>
+              </a>
+              <a class="a2" href="https://www.youtube.com/@animeost7790">
+                <p class="video-author">
+                  Anime Ost
+                </p>
+              </a>
+              <p class="video-stats"> 
+                16K views &#183; 6 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=MN_WgwEmRaw">
+              <img class="thumbnail" src="thumbnails\hq720 (8).webp">
+            </a>
+            <div class="video-time">1.29</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Jamezzterr">
+                <img class="profile-picture" src="channel icon\unnamed (8).jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a class="a1" href="https://www.youtube.com/watch?v=MN_WgwEmRaw">
+                <p class="video-tittle">
+                  Spice and Wolf OP ( IN HD!! )
+                </p>
+              </a>
+              <a class="a2" href="https://www.youtube.com/@Jamezzterr">
+                <p class="video-author">
+                  Jamezterr
+                </p>
+              </a>
+              <p class="video-stats"> 
+                3.8M views &#183; 14 years ago 
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=hnAJTv2DwPo">
+              <img class="thumbnail" src="thumbnails\hq720 (9).webp">
+            </a>
+            <div class="video-time">5.11</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@uni_mafumafu">
+                <img class="profile-picture" src="channel icon\unnamed (9).jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a class="a1" href="https://www.youtube.com/watch?v=hnAJTv2DwPo">
+                <p class="video-tittle">
+                  【【メアリと魔女の花】RAIN -Arrange ver.-cover【まふまふ】
+                </p>
+              </a>
+              <a class="a2" href="https://www.youtube.com/@uni_mafumafu">
+                <p class="video-author">
+                  まふまふちゃんねる
+                </p>
+              </a>
+              <p class="video-stats"> 
+                19M views &#183; 5 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=Q0blTODsxGw">
+              <img class="thumbnail" src="thumbnails\hq720 (10).webp">
+            </a>
+            <div class="video-time">3.48</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@HikariMelody">
+                <img class="profile-picture" src="channel icon\unnamed (10).jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a class="a1" href="https://www.youtube.com/watch?v=Q0blTODsxGw">
+                <p class="video-tittle">
+                  Majo no Tabitabi: The Journey of Elaina - Ending Full - Haiiro no Saga - by ChouCho
+                </p>
+              </a>
+              <a class="a2" href="https://www.youtube.com/@HikariMelody">
+                <p class="video-author">
+                  Hikari Melody
+                </p>
+              </a>
+              <p class="video-stats"> 
+                105k views &#183; 2 years ago 
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=tBTKScxGes8">
+              <img class="thumbnail" src="thumbnails\hq720 (11).webp">
+            </a>
+            <div class="video-time">4.21</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@Dazbeeee">
+                <img class="profile-picture" src="channel icon\unnamed (11).jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a class="a1" href="https://www.youtube.com/watch?v=tBTKScxGes8">
+                <p class="video-tittle">
+                  Forフルーツバスケット(Fruits Basket OP) ／ダズビー COVER
+                </p>
+              </a>
+              <a class="a2" href="https://www.youtube.com/@Dazbeeee">
+                <p class="video-author">
+                  DAZBEE official
+                </p>
+              </a>
+              <p class="video-stats"> 
+                1.4 M views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=0cJA5KB0W2Y">
+              <img class="thumbnail" src="thumbnails\hq720 (1).webp">
+            </a>
+            <div class="video-time">4.13</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@michan5364">
+                <img class="profile-picture" src="channel icon\unnamed (1).jpg">
+              </a>
+            </div>           
+            <div class="video-info">
+              <a class="a1" href="https://www.youtube.com/watch?v=0cJA5KB0W2Y">
+                <p class="video-tittle">
+                  ChouCho - Yasashisa no Riyuu [Kanji Romaji & Indonesia Terjemahan lirik]
+                </p>
+              </a>
+              <a class="a2" href="https://www.youtube.com/@michan5364">
+                <p class="video-author">
+                m<strong>i</strong> chan
+                </p>
+              </a>
+              <p class="video-stats"> 
+                115K views &#183; 3 years ago
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <a href="https://www.youtube.com/watch?v=jCnbHEQhlRE">
+              <img class="thumbnail" src="thumbnails\hq720 (2).webp">
+            </a>
+            <div class="video-time">4.17</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <a href="https://www.youtube.com/@AnimeOPEDSubtitles">
+                <img class="profile-picture" src="channel icon\unnamed (2).jpg">
+              </a>
+            </div>
+            <div class="video-info">
+              <a class="a1" href="https://www.youtube.com/watch?v=jCnbHEQhlRE">
+                <p class="video-tittle">
+                  [Kanji/Romaji/English] Hyouka-Kimi ni Matsuwaru Mystery (Ending 2) 君にまつわるミステリ
+                </p>
+              </a>
+              <a class="a2" href="https://www.youtube.com/@AnimeOPEDSubtitles">
+                <p class="video-author">
+                  Anime OP/ED Subtitles
+                </p>
+              </a>
+              <p class="video-stats"> 
+                1.5M views &#183; 7 years ago 
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+    </main>
+  </body>
+</html>
